@@ -1,0 +1,1222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/echarts1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <link href="../dist/css/theme.default.min.css" rel="stylesheet">
+    <script src="../dist/js/jquery.tablesorter.min.js"></script>
+    <script src="../dist/js/jquery.tablesorter.widgets.min.js"></script>
+    <script src="../js/agency.js"></script>
+    <link rel="stylesheet" href="../css/agency.css">
+    <script src="../laydate/laydate.js"></script>
+    <script>
+        $(function(){
+            $('.table').tablesorter({
+                widgets        : ['zebra', 'columns'],
+                usNumberFormat : false,
+                sortReset      : true,
+                sortRestart    : true
+            });
+        });
+    </script>
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="logo">CRM系统 </div>
+    <div class="h_nav">
+        <a href="../system/index.html">系统首页</a>
+        <a href="">新增客户</a>
+        <a href="">使用手册</a>
+    </div>
+    <ul class="h_right">
+        <span style="float: left">欢迎您，小强同学</span>
+        <div>
+            <a href="javascript:;" class="xx">消息</a>
+            <span class="number">9</span>
+            <ul class="xiaoxi">
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+                <li><a href="javascript:;">系统消息名称系统消息名称</a> <span>03-26 14:54:05</span></li>
+            </ul>
+        </div>
+        <div>
+            <a href="javascript:;">提醒
+            </a>
+            <div class="alert"></div>
+            <div class="tixing">
+                <div class="tx_top">
+                    <div class="left">我收到的 </div>
+                    <div class="right color">我发出的</div>
+                </div>
+                <ul class="tx_content one block">
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                </ul>
+                <ul class="tx_content tow">
+                    <li><a href="javacript:;">洽谈-xiao发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                    <li><a href="javacript:;">洽谈-陈帅帅发来一条提醒</a><span>03-26 14:54:05</span></li>
+                </ul>
+                <div class="tx_bottom">发布提醒</div>
+            </div>
+        </div>
+        <div>
+            <a href="">后台</a>
+        </div>
+        <div>
+            <a href="">退出</a>
+        </div>
+    </ul>
+</div>
+<!--content-->
+<div class="content">
+    <ul class="nav">
+        <li></li>
+        <li id="0" class="consult"><a href="javascript:;">咨询管理</a>
+            <div class="hover">咨询管理</div>
+        </li>
+        <li id="1" class="sale"><a href="javascript:;">销售管理</a>
+            <div class="hover">销售管理</div>
+        </li>
+        <li id="2" class="negotiate"><a href="javascript:;">洽谈管理</a>
+            <div class="hover">洽谈管理</div>
+        </li>
+        <li id="3" class="finance"><a href="javascript:;">财务管理</a>
+            <div class="hover">财务管理</div>
+        </li>
+        <li id="4" class="agency"><a href="javascript:;">知识产权部</a>
+            <div class="hover">知识产权部</div>
+        </li>
+        <li id="5" class="user"><a href="javascript:;">用户管理</a>
+            <div class="hover">用户管理</div>
+        </li>
+        <li id="6" class="stat"><a href="javascript:;">数据统计</a>
+            <div class="hover">数据统计</div>
+        </li>
+        <li id="7" class="customerPool"><a href="javascript:;">废弃池</a>
+            <div class="hover">废弃池</div>
+        </li>
+        <li id="8" class="resource"><a href="javascript:;">资源客户管理</a>
+            <div class="hover">资源客户管理</div>
+        </li>
+        <li id="9" class="afterSale"><a href="javascript:;">售后管理</a>
+            <div class="hover">售后管理</div>
+        </li>
+        <li id="10" class="trademarkRenewal"><a href="javascript:;">商标续展</a>
+            <div class="hover">商标续展</div>
+        </li>
+        <div class="n_button"></div>
+    </ul>
+    <div class="box">
+        <div class="nav_v">
+            <div>咨询管理</div>
+            <div><a href="../Consultation/consultation_list.html">咨询客户管理列表</a></div>
+            <div><a href="../Consultation/distribution_list.html">公司分配统计表</a></div>
+            <div><a href="../Consultation/message.html">客户留言管理</a></div>
+        </div>
+        <div class="nav_v">
+            <div>销售管理</div>
+            <div><a href="../sell/allocation.html">业务分配管理</a></div>
+            <div><a href="../sell/information.html">客户信息管理</a></div>
+            <div><a href="../sell/enquiry.html">询价记录表</a></div>
+            <div><a href="../sell/log sheet.html">客户成交记录表</a></div>
+        </div>
+        <div class="nav_v">
+            <div>洽谈管理</div>
+            <div><a href="../Negotiate/xs_inquiry.html">洽谈询价需求表</a></div>
+            <div class="qit"><a href="../Negotiate/dai_feedback.html">洽谈跟进管理</a></div>
+            <div class="sanji"><a href="javascript:;">待反馈</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="javascript:;">谈价中</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="javascript:;">已成交</a></div>
+            <div class="sanji"><a href="javascript:;">已废弃</a></div>
+            <div><a href="../Negotiate/biangeng_list.html">洽谈变更列表</a></div>
+            <div><a href="../Negotiate/chengjiao_list.html">商标成交记录</a></div>
+        </div>
+        <div class="nav_v">
+            <div>财务管理</div>
+            <div class="qit"><a href="javascript:;">订单详细表</a></div>
+            <div class="sanji"><a href="../finance/client-imprest.html">客户预付款</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="../finance/client-final.html">客户尾款</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="../finance/client-all.html">客户全款</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="../finance/hold-handsel.html">持有人定金</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji"><a href="../finance/hold-end.html">持有人尾款</a>
+                <div class="yuan"></div>
+            </div>
+        </div>
+        <div class="nav_v">
+            <div>代理管理</div>
+            <div><a href="../agency/agency.html">代理订单列表</a></div>
+        </div>
+        <div class="nav_v">
+            <div>用户管理</div>
+            <div><a href="../system/newly.html">用户列表管理</a></div>
+            <div><a href="../system/jurisdiction.html">群组权限管理</a></div>
+            <div><a href="../system/password.html">修改密码</a></div>
+        </div>
+        <div class="nav_v">
+            <div>数据统计</div>
+            <div class="qit" id="1"><a href="javascript:;">(渠道)运营  </a></div>
+            <div class="sanji one"><a href="../data-statistics/Bidding_conversion.html">渠道转化汇总</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji one"><a href="../data-statistics/optimization_tongji.html ">运营数据统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji one"><a href="../data-statistics/Bidding_dialogue.html">商务通对话量</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji one"><a href="../data-statistics/optimization_jindu.html">运营目标分解进度</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji one"><a href="../data-statistics/Bidding_consumer.html">消费简报</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="qit" id="2"><a href="javascript:;">咨询客户数 </a></div>
+            <div class="sanji two"><a href="../data-statistics/Consultation_fqtj.html">咨询汇总统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji two"><a href="../data-statistics/Consultation_hz.html">废弃客户统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="qit" id="3"><a href="../data-statistics/finance.html">财务成交量</a></div>
+            <div class="sanji three"><a href="../data-statistics/">已完结订单（销售）</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="../data-statistics/">已完结订单（洽谈）</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="../data-statistics/">销售业绩排名</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="../data-statistics/">退单毛利（销售)</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="javascript:;">退单毛利（洽谈)</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="javascript:;">客户尾款时间管理</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three "><a href="javascript:;">业务类型统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="javascript:;">商标属性统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="javascript:;">担保注册统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji three"><a href="javascript:;">订单状态明细表</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="qit" id="4"><a href="javascript:;">销售额</a></div>
+            <div class="sanji four"><a href="../data-statistics/performance.html ">业绩成果分析</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="../data-statistics/ranking.html">销售业绩排名统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="../data-statistics/data-follow.html">销售跟进状态明细表</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="javascript:;">业务类型统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="../data-statistics/kind-xs.html">销售询价统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="../data-statistics/data-chargeback.html">退单统计</a>
+                <div class="yuan"></div>
+            </div>
+            <div class="sanji four"><a href="../data-statistics/data-agency.html">代理状态</a>
+                <div class="yuan"></div>
+            </div>
+        </div>
+        <div class="nav_v">
+            <div>废弃池</div>
+            <div><a href="javascript:;">废弃池</a></div>
+        </div>
+        <div class="nav_v">
+            <div>资源客户管理</div>
+            <div><a href="../data-statistics/resource.html">咨询管理</a></div>
+        </div>
+        <div class="nav_v">
+            <div>售后管理</div>
+            <div><a href="javascript:;">成交客户列表</a></div>
+            <div><a href="javascript:;">二次分配客户列表</a></div>
+            <div><a href="javascript:;">二次开发业务类型</a></div>
+        </div>
+        <div class="nav_v">
+            <div>商标续展</div>
+            <div><a href="../data-statistics/extension.html">续展时间</a></div>
+        </div>
+        <div class="b_button"></div>
+    </div>
+    <div class="inner">
+        <div class="in_title">
+            位置：<a href="">首页</a> >销售业绩排名统计
+        </div>
+        <div class="i-inner">
+            <div id="pillar1" style="width:100%;height:380px;"></div>
+            <div id="pillar2" style="width:100%;height:380px;"></div>
+            <div class="select"><span>公司个人销售业绩排名：</span><select name="" id="">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select></div>
+            <div id="pillar3" style="width:100%;height:380px;position: relative"></div>
+            <div class="condition">日期统计:
+                <input class="laydate-icon" onclick="laydate()" style="width: 150px;height: 32px;margin-left: 10px;"> 到<input class="laydate-icon" style="width: 150px;height: 32px;margin-left: 10px;" onclick="laydate()">
+                <a href="" class="color">开始统计</a>
+            </div>
+            <div class="titles">集团个人销售业绩排名：</div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th width="100">集团排名</th>
+                    <th width="100"> 销售代表   </th>
+                    <th width="100"> 分公司 </th>
+                    <th width="100">销售额</th>
+                    <th width="100">毛利</th>
+                    <th width="100">客户数</th>
+                    <th width="100"> 订单数  </th>
+                    <th width="100">  成交客户数</th>
+                    <th width="100"> 成交毛利      </th>
+                    <th width="100">  平均销售额            </th>
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>3 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>4 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>58</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>5 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>38</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>89</td>
+                    <td>47</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <td>8 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>47</td>
+                    <td>47</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="titles">分公司销售业绩排名：</div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th width="100">集团排名</th>
+                    <th width="100">      分公司    </th>
+                    <th width="100">   销售额  </th>
+                    <th width="100">毛利</th>
+                    <th width="100">客户数</th>
+                    <th width="100"> 订单数  </th>
+                    <th width="100">  成交客户数</th>
+                    <th width="100"> 成交毛利</th>
+                    <th width="100">  平均销售额  </th>
+                    <th width="100"> 平均毛利 </th>
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>3 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>4 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>58</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>5 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>38</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>89</td>
+                    <td>47</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <td>8 </td>
+                    <td>上海1公司 </td>
+                    <td>  吴刚 </td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>89</td>
+                    <td>47</td>
+                    <td>47</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="titles">公司个人销售业绩排名：<select name="" id="">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select></div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th width="100">公司排名</th>
+                    <th width="100">      销售代表    </th>
+                    <th width="100">     销售额    </th>
+                    <th width="100">毛利</th>
+                    <th width="100">当月成交率</th>
+                    <th width="100"> 跨月成交率  </th>
+                    <th width="100">  订单数 </th>
+                    <th width="100">     成交客户数 </th>
+                    <th width="100">   成交毛利      </th>
+                    <th width="100"> 平均销售额
+                    <th width="100">  平均毛利</th>
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>  吴刚 </td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--zhezhao-->
+<div class="zhezhao"></div>
+<!--消息详情-->
+<div class="details">
+    <div class="de_top">
+        消息详情
+        <div class="de_gb"><diiv>
+        </div>
+        <div class="de_inner">
+            洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息。
+        </div>
+        <span>03-26 14:54:05</span>
+    </div>
+    <!--提醒详情我收到-->
+    <div class="obtain">
+        <div class="de_top">
+            提醒详情
+            <div class="de_gb"></div>
+        </div>
+        <div class="de_inner">
+            洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息。
+        </div>
+        <span style="color: #6c747c">发送人：吴刚</span><span>03-26 14:54:05</span>
+    </div>
+    <!--提醒详情我发出-->
+    <div class="obtains">
+        <div class="de_top">
+            提醒详情
+            <div class="de_gb"></div>
+        </div>
+        <div class="de_inner">
+            洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息内容文字填充洽谈-陈帅帅发来条消息。
+        </div>
+        <span style="color: #6c747c">发送人：吴刚 彬彬</span><span>03-26 14:54:05</span>
+    </div>
+    <!--发布提醒-->
+    <div class="datas">
+        <div class="de_top">
+            发布提醒
+            <div class="de_gb"></div>
+        </div>
+        <div class="de_content">
+            <ul class="left">
+                <li><span>提醒人：</span>
+                    <div class="border">
+                    </div>
+                </li>
+                <li><span>提醒时间：</span>
+                    <div class="borders">
+                        <i></i>
+                        <div class="data_box">
+                            <div class="da">
+                                <div class="jia"></div>
+                                <div class="number" id="cyear">2017</div>
+                                <div class="jian"></div>
+                            </div>
+                            <div class="da">
+                                <div class="jia"></div>
+                                <div class="number">2017</div>
+                                <div class="jian"></div>
+                            </div>
+                            <div class="da">
+                                <div class="jia"></div>
+                                <div class="number">2017</div>
+                                <div class="jian"></div>
+                            </div>
+                            <div class="da">
+                                <div class="jia"></div>
+                                <div class="number">2017</div>
+                                <div class="jian"></div>
+                            </div>
+                            <div class="da">
+                                <div class="jia"></div>
+                                <div class="number">2017</div>
+                                <div class="jian"></div>
+                            </div>
+                            <div style="clear: both"></div>
+                            <div class="buttons">取消</div>
+                            <div class="button">确认</div>
+                        </div>
+                    </div>
+                </li>
+                <li style="height: 110px"><span>提醒内容：</span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </li>
+                <a href="">确定发布</a>
+            </ul>
+            <div class="right">
+                <div class="selese"><span>请选择职能部</span>
+                    <ul class="xiala">
+                        <li>销售</li>
+                        <li>财务</li>
+                        <li>洽谈</li>
+                        <li>保洁</li>
+                        <li>技术</li>
+                    </ul>
+                </div>
+                <div class="inners">
+                    <div class="in_top">请选择提醒人</div>
+                    <ul class="in_inner block">
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强1</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红1</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明1</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑1</span>
+                        </li>
+                    </ul>
+                    <ul class="in_inner">
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                    </ul>
+                    <ul class="in_inner">
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                    </ul>
+                    <ul class="in_inner">
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                    </ul>
+                    <ul class="in_inner">
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小强</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小红</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小明</span>
+                        </li>
+                        <li>
+                            <div class="in_button"></div>
+                            <span>小黑</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //柱状图2
+    var pillar1 = echarts.init(document.getElementById('pillar1'));
+    pillar1.setOption({
+        title:{
+          text:'集团销售业绩排名：',
+            textStyle:{
+                color:'#4f5f6f',
+                fontSize:14,
+            },
+        },
+//        toolbox:{
+//            show:true,
+//            orient:'horizontal',
+//            itemSize:20,
+//            left:'95%',
+//            feature:{
+//                saveAsImage:{
+//                    show:true
+//                }
+//            }
+//        },
+        toolbox: {
+            show : true,
+            feature : {
+//                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        legend:{
+            data:["毛利","平均毛利",]
+        },
+        tooltip : {
+            trigger: 'axis',
+        },
+        grid:{
+            left:'5%',
+            right:'3%',
+        },
+        calculable : true,
+        xAxis : [
+            {
+                type : 'category',
+                data: ['销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚'],
+            }
+        ],
+        yAxis: {
+            type: 'value',
+            nameTextStyle: {
+                color: '#ccc',
+                fontSize: 18
+            },
+            axisLabel: {
+                formatter: '{value} 万'
+            }
+        },
+        series : [
+            {
+                name:'业绩',
+                type:'bar',
+                data:[183, 162, 148, 135, 118, 109,96,85, 82, 80],
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'},
+                        {type : 'average', name: '平均值'},
+                    ],
+                    itemStyle:{
+                        normal:{
+                          color:'#fc8b37'
+                        }
+                    }
+                },
+                barWidth : 30,
+                itemStyle:{
+                    normal:{
+                        // color:'red'
+                        color: function(params) {
+                            // build a color map as your need.
+                            var colorList = [
+                                '#e24343','#e76354','#f5a352','#4473d2','#54b8e7',
+                                '#939393','#ba50a5','#313541',
+                                '#4fcc99','#1fd4df',
+                            ];
+                            return colorList[params.dataIndex]
+                        },
+                    }
+                }
+            },
+        ],
+        animationDuration:3000,
+        silent:true
+    });
+    var pillar2 = echarts.init(document.getElementById('pillar2'));
+    pillar2.setOption({
+        title:{
+            text:'分公司销售业绩排名：',
+            textStyle:{
+                color:'#4f5f6f',
+                fontSize:14,
+            }
+        },
+        toolbox: {
+            show : true,
+            feature : {
+//                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+//        toolbox:{
+//            show:true,
+//            orient:'horizontal',
+//            itemSize:20,
+//            left:'95%',
+//            feature:{
+//                saveAsImage:{
+//                    show:true
+//                }
+//            }
+//        },
+        legend:{
+            data:["毛利","平均毛利",]
+        },
+        tooltip : {
+            trigger: 'axis',
+        },
+        grid:{
+            left:'5%',
+            right:'3%',
+        },
+        calculable : true,
+        xAxis : [
+            {
+                type : 'category',
+                data: ['上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 ','上海销售1公司 '],
+            }
+        ],
+        yAxis: {
+            type: 'value',
+            nameTextStyle: {
+                color: '#ccc',
+                fontSize: 18
+            },
+            axisLabel: {
+                formatter: '{value} 万'
+            }
+        },
+        series : [
+            {
+                name:'业绩',
+                type:'line',
+                data:[183, 162, 148, 135, 118, 109,96,85, 82, 80],
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'},
+                        {type : 'average', name: '平均值'},
+                    ],
+                    itemStyle:{
+                        normal:{
+                            color:'#e76354'
+                        }
+                    }
+                },
+                smooth:true,
+                barWidth : 30,
+                itemStyle:{
+                    normal:{
+                        color:'#fe8a35',
+                    }
+                },
+                areaStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 0.8, [{
+                            offset: 0,
+                            color: '#fe8a35'
+                        }, {
+                            offset: 0.8,
+                            color: '#fff'
+                        }])
+                    }
+                },
+            },
+        ],
+        animationDuration:3000,
+        silent:true
+    });
+    var pillar3 = echarts.init(document.getElementById('pillar3'));
+    pillar3.setOption({
+        title:{
+//            text:'集团销售业绩排名：',
+            textStyle:{
+                color:'#4f5f6f',
+                fontSize:14,
+            }
+        },
+        toolbox: {
+            show : true,
+            feature : {
+//                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        legend:{
+            data:["毛利","平均毛利",]
+        },
+        tooltip : {
+            trigger: 'axis',
+        },
+        grid:{
+            left:'5%',
+            right:'3%',
+        },
+        calculable : true,
+        xAxis : [
+            {
+                type : 'category',
+                data: ['销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚','销售代表-吴刚'],
+            }
+        ],
+        yAxis: {
+            type: 'value',
+            nameTextStyle: {
+                color: '#ccc',
+                fontSize: 18
+            },
+            axisLabel: {
+                formatter: '{value} 万'
+            }
+        },
+        series : [
+            {
+                name:'业绩',
+                type:'bar',
+                data:[183, 162, 148, 135, 118, 109,96,85, 82, 80],
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'},
+                        {type : 'average', name: '平均值'},
+                    ],
+                    itemStyle:{
+                        normal:{
+                            color:'#7ffc74'
+                        }
+                    }
+                },
+                barWidth : 30,
+                itemStyle:{
+                    normal:{
+                        // color:'red'
+                        color: function(params) {
+                            // build a color map as your need.
+                            var colorList = [
+                                '#e24343','#e76354','#f5a352','#4473d2','#54b8e7',
+                                '#939393','#ba50a5','#313541',
+                                '#4fcc99','#1fd4df',
+                            ];
+                            return colorList[params.dataIndex]
+                        },
+                    }
+                }
+            },
+        ],
+        animationDuration:3000,
+        silent:true
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+@charset "UTF-8";
+input{
+  border:1px solid #ccc;
+}
+.inner .title {
+  min-width: 1200px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .matter {
+  width: 1200px;
+  padding-top: 15px;
+}
+
+.inner .matter:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .matter .left {
+  width: 450px;
+  height: 1200px;
+  float: left;
+}
+
+.inner .matter .left li {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .matter .left li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 32px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .matter .left li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .matter .left li input[type=text] {
+  width: 235px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .matter .left li select {
+  width: 239px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .matter .left li.annotation {
+  text-align: center;
+}
+
+.inner .matter .left li.remark {
+  height: 80px;
+}
+
+.inner .matter .left li.remark span {
+  float: left;
+}
+
+.inner .matter .left li.remark textarea {
+  width: 237px;
+  height: 100%;
+  resize: none;
+}
+
+.inner .matter .left li.save a {
+  display: block;
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 135px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.inner .matter .left li.save a:hover {
+  background: #ed5746;
+}
+
+.inner .matter .left li.save input[type=submit] {
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 135px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.inner .matter .left li.save input[type=submit]:hover {
+  background: #ed5746;
+}
+
+.inner .matter .right {
+  width: 600px;
+  height: 1200px;
+  float: left;
+}
+
+.inner .matter .right li {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .matter .right li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 100%;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .matter .right li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .matter .right li span.second {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #e8ecef;
+  background: #f7f8fa;
+  text-align: center;
+  cursor: pointer;
+}
+
+.inner .matter .right li span.second:hover {
+  background: #fff;
+}
+
+.inner .matter .right li span.second.active {
+  background: #f0f3f8;
+}
+
+.inner .matter .right li input[type=text] {
+  width: 235px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .matter .right li span.sex {
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 4px;
+  background: url("../images/icon-sex.png") no-repeat center center;
+}
+
+.inner .matter .right li span.sex.on {
+  background: url("../images/icon-sexxz.png") no-repeat center center;
+}
+
+.inner .matter .right li span.sex input[type=radio] {
+  opacity: 0;
+  /*兼容IE8*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.inner .matter .right li span.checkbox {
+  padding-top: 4px;
+  background: url("../images/icon-gx.png") no-repeat center center;
+}
+
+.inner .matter .right li span.checkbox.on {
+  background: url("../images/icon-gxxz.png") no-repeat center center;
+}
+
+.inner .matter .right li span.checkbox input[type=checkbox] {
+  opacity: 0;
+  /*兼容IE8*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.inner .matter .right li select {
+  width: 239px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .matter .right li select.area {
+  width: 190px;
+  margin-right: 5px;
+}

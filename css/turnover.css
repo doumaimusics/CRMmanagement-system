@@ -1,0 +1,413 @@
+@charset "UTF-8";
+.inner .title {
+  min-width: 1200px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .title .title-r {
+  float: right;
+  padding-right: 15px;
+}
+
+.inner .title .title-r select {
+  width: 106px;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .title .title-r span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .form-one {
+  margin-top: 20px;
+  width: 1050px;
+}
+
+.inner .form-one:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .form-one li {
+  float: left;
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .form-one li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 32px;
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.inner .form-one li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .form-one li input[type=text] {
+  width: 160px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .form-one li input[type=text].life-span {
+  width: 55px;
+}
+
+.inner .form-one li input[type=text].data {
+  width: 110px;
+}
+
+.inner .form-one li select {
+  width: 164px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .form-one li span.yuan {
+  margin-left: 5px;
+}
+
+.inner .form-two {
+  width: 1050px;
+  margin-top: 30px;
+}
+
+.inner .form-two:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .form-two .form-left {
+  width: 50%;
+  float: left;
+}
+
+.inner .form-two .form-left li {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .form-two .form-left li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 32px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .form-two .form-left li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .form-two .form-left li span.space {
+  display: inline-block;
+  width: 160px;
+}
+
+.inner .form-two .form-left li input[type=text] {
+  width: 160px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .form-two .form-left li select {
+  width: 164px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .form-two .form-left li span.yuan {
+  margin-left: 5px;
+}
+
+.inner .form-two .form-right {
+  width: 50%;
+  float: left;
+}
+
+.inner .form-two .form-right li {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .form-two .form-right li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 100%;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .form-two .form-right li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .form-two .form-right li span.yuan {
+  margin-left: 5px;
+}
+
+.inner .form-two .form-right li span.space {
+  display: inline-block;
+  width: 100px;
+}
+
+.inner .form-two .form-right li input[type=text] {
+  width: 160px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .form-two .form-right li input[type=text].life-span {
+  width: 55px;
+}
+
+.inner .form-two .form-right li input[type=text].data {
+  width: 110px;
+}
+
+.inner .form-two .form-right li select {
+  width: 164px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .form-two .form-right li select.area {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.inner .form-three {
+  margin-top: 20px;
+  width: 1050px;
+}
+
+.inner .form-three:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .form-three li {
+  float: left;
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .form-three li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 32px;
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.inner .form-three li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .form-three li input[type=text] {
+  width: 160px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .form-three li input[type=text].life-span {
+  width: 55px;
+}
+
+.inner .form-three li input[type=text].data {
+  width: 110px;
+}
+
+.inner .form-three li select {
+  width: 164px;
+  height: 32px;
+  color: #6c747c;
+}
+
+.inner .form-three li span.yuan {
+  margin-left: 5px;
+}
+
+.inner .form-three li:first-child {
+  width: 100%;
+}
+
+.inner .factorage {
+  width: 95%;
+  min-width: 1050px;
+  color: #e76354;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+.inner .line {
+  width: 95%;
+  min-width: 1150px;
+  height: 1px;
+  margin: 20px auto 0;
+  background: #e2e4e6;
+}
+
+.inner .base {
+  width: 100%;
+  min-width: 1050px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.inner .base .base-add {
+  width: 65px;
+  height: 30px;
+  margin-left: 40px;
+}
+
+.inner .base .base-add a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #e76354 url("../images/icon-add.png") no-repeat 6px center;
+  padding-left: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.inner .base .base-add a:hover {
+  background: #ed5746 url("../images/icon-add.png") no-repeat 6px center;
+}
+
+.inner .base .bill {
+  width: 600px;
+  height: 50px;
+  line-height: 50px;
+  color: #6c747c;
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.inner .base .bill span.invoice, .inner .base .bill span.client {
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 4px;
+  background: url("../images/icon-sex.png") no-repeat center center;
+}
+
+.inner .base .bill span.invoice.on, .inner .base .bill span.client.on {
+  background: url("../images/icon-sexxz.png") no-repeat center center;
+}
+
+.inner .base .bill span.invoice input[type=radio], .inner .base .bill span.client input[type=radio] {
+  opacity: 0;
+  /*兼容IE8*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.inner .base .money {
+  min-width: 1120px;
+  height: 90px;
+  margin-left: 40px;
+  border: 1px solid #e8ecef;
+  background: #f7f8fa;
+  line-height: 90px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .base .money span {
+  display: inline-block;
+  width: 150px;
+}
+
+.inner .base .money input[type=text] {
+  width: 240px;
+  height: 30px;
+  color: #6c747c;
+}
+
+.inner .base .submit {
+  width: 100%;
+  height: 34px;
+  margin-top: 20px;
+}
+
+.inner .base .submit input[type=submit] {
+  width: 100px;
+  height: 34px;
+  background: #e76354;
+  margin-left: 40px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.inner .base .submit input[type=submit]:hover {
+  background: #ed5746;
+}
+
+.inner .base .submit input[type=reset] {
+  background: #5d7fa2;
+  width: 100px;
+  height: 34px;
+  margin-left: 10px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.inner .base .submit input[type=reset]:hover {
+  background: #4478ae;
+}

@@ -1,0 +1,86 @@
+.editor_box > nav{
+    margin: 15px 0 20px 0;
+}
+.edit_box{
+    margin: 20px 0 0 16px;
+}
+.edit_box ul{
+    width:1000px;
+}
+.edit_box ul li{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin:0 75px 20px 0;
+}
+.edit_box ul li span{
+    font-size: 12px;
+    color: #5c646b;
+    text-align: right;
+    width: 75px;
+    display: inline-block;
+}
+.edit_box ul li input{
+    width: 248px;
+    height: 30px;
+    border: 1px solid #e8ecef;
+    color: #5c646b;
+    padding: 0 5px;
+}
+.edit_box ul li select{
+    width: 244px;
+    height: 30px;
+    border: 1px solid #e8ecef;
+    color: #5c646b;
+    padding: 0 5px;
+}
+.edit_box ul li input.dian{
+    background: url("../images/kat.png") no-repeat center;
+    background-position: right;
+    background-position-x: 230px;
+    width: 244px;
+}
+.edit_box ul li a{
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 15px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.edit_box ul li a.preservation{
+    background-color: #1e6cc7;
+    margin-left: 75px;
+}
+.edit_box ul li a.preservation:hover{
+    background-color: #1758a4;
+}
+.edit_box ul li a.reset{
+    background-color: #ed5746;
+}
+.edit_box ul li a.reset:hover{
+    background-color: #d74f3f;
+}
+.edit_box  span.star{color:red;}
+.edit_box .resetbutton{background-color: rgb(237, 87, 70); width: 80px; height: 32px;color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,328 @@
+@charset "UTF-8";
+.inner .title {
+  min-width: 1192px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .in-list {
+  min-width: 1160px;
+  height: 40px;
+  border-bottom: 1px solid #e8ecef;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.inner .in-list:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.inner .in-list ul {
+  width: 212px;
+  height: 40px;
+  float: left;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.inner .in-list ul:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.inner .in-list ul li {
+  width: 105px;
+  height: 39px;
+  float: left;
+  border: 1px solid #e8ecef;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 40px;
+  background: #f7f8fa;
+  color: #4f5f6f;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.inner .in-list ul li:first-child {
+  border-right: none;
+}
+
+.inner .in-list ul li.active {
+  font-weight: bold;
+  border-top: 2px solid #e76354;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  /*color: #e76354;*/
+}
+
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1160px;
+}
+
+.inner .matter ul {
+  width: 1100px;
+}
+
+.inner .matter ul:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.inner .matter ul li {
+  float: left;
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .matter ul li span:first-child {
+  display: inline-block;
+  width: 105px;
+  height: 32px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .matter ul li span.am-search {
+  display: inline-block;
+  width: 146px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter ul li span.am-search a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #f7f8fa;
+  border: 1px solid #e8ecef;
+  box-sizing: border-box;
+  color: #6c747c;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.inner .matter ul li span.am-search a:hover {
+  background: #fff;
+}
+
+.inner .matter ul li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .matter ul li input[type=text] {
+  border: 1px solid #ccc;
+  width: 235px;
+  height: 28px;
+  color: #6c747c;
+}
+
+.inner .matter ul li span.flow-path, .inner .matter ul li span.record, .inner .matter ul li span.flow-paths, .inner .matter ul li span.records {
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 4px;
+  background: url("../images/icon-sex.png") no-repeat center center;
+}
+
+.inner .matter ul li span.flow-path.on, .inner .matter ul li span.record.on, .inner .matter ul li span.flow-paths.on, .inner .matter ul li span.records.on {
+  background: url("../images/icon-sexxz.png") no-repeat center center;
+}
+
+.inner .matter ul li span.flow-path input[type=radio], .inner .matter ul li span.record input[type=radio], .inner .matter ul li span.flow-paths input[type=radio], .inner .matter ul li span.records input[type=radio] {
+  opacity: 0;
+  /*IE8兼容问题*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.inner .matter ul li span.follow {
+  display: inline-block;
+  width: 150px;
+  height: 32px;
+  border: 1px solid #c5cad0;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.inner .matter ul li span.set-follow {
+  display: inline-block;
+  width: 89px;
+  height: 32px;
+  position: relative;
+}
+
+.inner .matter ul li span.set-follow .set-followBox {
+  display: none;
+  width: 303px;
+  height: 211px;
+  background: url("../images/set-followBox.png") no-repeat center center;
+  position: absolute;
+  top: -211px;
+  left: -214px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-top {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-top span:first-child {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-mid {
+  width: 100%;
+  height: 32px;
+  margin-top: 5px;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-mid span:first-child {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  text-align: right;
+  line-height: 32px;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-mid select {
+  width: 194px;
+  height: 100%;
+  margin-left: 0;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-bottom {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-bottom span:first-child {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: right;
+  float: left;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .set-bottom textarea {
+  width: 192px;
+  height: 100%;
+  resize: none;
+}
+
+.inner .matter ul li span.set-follow .set-followBox .submit {
+  display: block;
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 80px;
+  background: #e76354;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.inner .matter ul li span.set-follow > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #f7f8fa;
+  border: 1px solid #c5cad0;
+  border-left: 1px solid #fff;
+  box-sizing: border-box;
+  color: #6c747c;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.inner .matter ul li span.set-follow > a:hover {
+  background: #fff;
+}
+
+.inner .matter ul li.entire {
+  width: 100%;
+}
+
+.inner .matter ul li.remark {
+  height: 80px;
+}
+
+.inner .matter ul li.remark span {
+  float: left;
+}
+
+.inner .matter ul li.remark textarea {
+  border: 1px solid #ccc;
+  width: 237px;
+  height: 100%;
+  resize: none;
+  color: #6c747c;
+}
+
+.inner .matter ul li.save a {
+  display: block;
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 105px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.inner .matter ul li.save a:hover {
+  background: #ed5746;
+}
+
+.inner .matter ul li.save input[type="submit"] {
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 105px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.inner .matter ul li.save input[type="submit"]:hover {
+  background: #ed5746;
+}
+
+.matter-two {
+  display: none;
+}

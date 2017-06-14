@@ -1,0 +1,342 @@
+.inner .title {
+  min-width: 1482px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1450px;
+}
+
+.inner .matter .top {
+  width: 1450px;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .matter .top span {
+  float: left;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter .top select {
+  float: left;
+  width: 120px;
+  height: 32px;
+  line-height: 28px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .matter .top #search {
+  float: left;
+  border: none;
+  width: 65px;
+  height: 32px;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 12px;
+  background: #e76354;
+  outline: none;
+  cursor: pointer;
+}
+
+.inner .matter .top #search:hover {
+  background: #ed5746;
+}
+
+.inner .matter .middle {
+  margin-top: 15px;
+}
+
+.inner .matter .middle tr {
+  border: 1px solid #ccc;
+}
+
+.inner .matter .middle tr th {
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f5f6f;
+  text-align: left;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.inner .matter .middle tr td {
+  padding-left: 25px;
+  font-size: 12px;
+  color: #6c747c;
+  height: 40px;
+}
+
+.inner .matter .middle tr td select {
+  width: 120px;
+  height: 32px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .matter .middle tr #fugai {
+  position: relative;
+}
+
+.inner .matter .middle tr #fugai .fugai {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("../images/no.png");
+  display: none;
+}
+
+.inner .matter .middle tr #fugai.finsh .fugai {
+  display: block;
+}
+
+.inner .matter .middle tr .operation {
+  color: #456aa9;
+}
+
+.inner .matter .middle tr .operation:hover {
+  color: #e76354;
+  cursor: pointer;
+}
+
+.inner .matter .middle thead tr {
+  background: #f7f8fa;
+}
+
+.inner .matter .middle tbody tr:hover {
+  background: #f7f8fa;
+}
+
+.tishi {
+  z-index: 888888;
+  display: none;
+  width: 320px;
+  height: 180px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 14px;
+}
+
+.tishi .t-top {
+  width: 100%;
+  height: 40px;
+  background: #f7f8fa url("../images/icon-ts.png") no-repeat 15px center;
+  border-bottom: 1px solid #e8ecef;
+  padding-left: 24px;
+  box-sizing: border-box;
+  line-height: 40px;
+  color: #4f5f6f;
+  font-weight: bold;
+  position: relative;
+}
+
+.tishi .t-top span {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../images/icon-close.png") no-repeat center center;
+  cursor: pointer;
+}
+
+.tishi .t-top span:hover {
+  background: url("../images/icon-closed.png") no-repeat center center;
+}
+
+.tishi .t-center {
+  width: 100%;
+  color: #4f5f6f;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tishi .t-center span {
+  color: #456aa9;
+}
+
+.tishi .t-bottom {
+  height: 32px;
+  margin-top: 30px;
+  width: 100%;
+  line-height: 32px;
+  color: #fff;
+}
+
+.tishi .t-bottom li {
+  width: 80px;
+  height: 32px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+
+.tishi .t-bottom .queren {
+  background: #e76354;
+  margin-left: 73px;
+}
+
+.tishi .t-bottom .quxiao {
+  background: #5d7fa2;
+  margin-left: 15px;
+}
+
+.page {
+  margin-top: 25px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.page .pagin {
+  display: inline-block;
+}
+
+.page .pagin .message, .page .pagin .pageurl {
+  float: left;
+}
+
+.page .pagin ul li {
+  margin-left: 5px;
+  float: left;
+}
+
+.page .pagin ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page .pagin a, .page .pagin .disabled {
+  border: 1px solid #e3e6e7;
+  padding: 0 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #6c747c;
+}
+
+.page .pagin a:hover, .page .pagin .disabled:hover {
+  border: 1px solid #e76354;
+}
+
+.page .pagin a.color, .page .pagin .disabled.color {
+  border: 1px solid #e76354;
+  background: #e76354;
+  color: #fff;
+}
+
+/*统计分解*/
+.table_list {	
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e8ecef #e8ecef currentcolor;
+    border-image: none;
+    border-spacing: 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #435262;
+    font-size: 12px;
+    width: 100%;	
+
+}
+
+.table_list tr.jindu_list_trtle1 {
+    background-color: #f7f8fa;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.table_list tr.jindu_list_trtle2 {
+    background-color: #f7f8fa;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+.table_list tr th {
+    border-bottom: 1px solid #e8ecef;
+    border-right: 1px solid #e8ecef;
+}
+.table_list tr th i {
+    background-color: #e8ecef;
+    display: -webkit-box;
+    height: 1px;
+    left: -10px;
+    position: absolute;
+    top: 34px;
+    transform: rotate(28deg);
+    width: 148px;
+}
+.table_list tr td {
+    border-bottom: 1px solid #e8ecef;
+    border-right: 1px solid #e8ecef;
+    height: 39px;
+    text-align: center;
+	
+}
+#book{
+	border-bottom:1px solid #e8ecef;
+	-webkit-transform: rotate(28deg);/*Safari 4+,Google Chrome 1+  */
+	-moz-transform: rotate(28deg);/*Firefox 3.5+*/
+	transform: rotate(28deg);		
+	margin-left: -28px; width: 145%; height: 10px; margin-top: -8px;
+}
+#book_a{
+	position: absolute;left: 20px;bottom: 0px;top: 20px;	
+	-webkit-transform: rotate(-27deg);/*Safari 4+,Google Chrome 1+  */
+	-moz-transform: rotate(-27deg);/*Firefox 3.5+*/
+	transform: rotate(-27deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.27);
+	font-weight:bold;
+}
+#book_b{position: absolute;right: 20px;top: -20px;
+-webkit-transform: rotate(-27deg);/*Safari 4+,Google Chrome 1+  */
+	-moz-transform: rotate(-27deg);/*Firefox 3.5+*/
+	transform: rotate(-27deg);
+	
+	font-weight:bold;
+}
+.table_list tr.jindu_list_trtle2 td {
+    height: 29px;
+    line-height: 29px;
+}
+.table_list tr.pink {
+    background-color: #fff6ed;
+    color: #f37f39;
+}
+
+
+.table_list tr.odd:hover {
+    background-color: #edf5fd;
+}

@@ -1,0 +1,183 @@
+.inner .title {
+  min-width: 1200px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .title .title-r {
+  float: right;
+  padding-right: 15px;
+}
+
+.inner .title .title-r select {
+  width: 106px;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .title .title-r span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .factorage {
+  min-width: 1050px;
+  height: 30px;
+  color: #e76354;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.inner .line {
+  min-width: 1150px;
+  height: 1px;
+  margin-left: 40px;
+  background: #e2e4e6;
+  margin-top: 10px;
+}
+
+.inner .in-message {
+  width: 900px;
+  margin-left: 60px;
+  margin-top: 25px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .in-message:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .in-message li {
+  width: 50%;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+
+.inner .in-message li span.star {
+  color: #e76354;
+}
+
+.inner .in-message1 {
+  width: 900px;
+  margin-left: 60px;
+  margin-top: 25px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .in-message1:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .in-message1 li {
+  width: 50%;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+
+.inner .in-message1 li span.star {
+  color: #e76354;
+}
+
+.inner .in-message1 li:first-child {
+  width: 100%;
+}
+
+.inner .in-message2 {
+  width: 900px;
+  margin-left: 60px;
+  margin-top: 25px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .in-message2:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .in-message2 .left, .inner .in-message2 .right {
+  float: left;
+  width: 50%;
+}
+
+.inner .in-message2 .left li, .inner .in-message2 .right li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+
+.inner .in-message2 .left li span.star, .inner .in-message2 .right li span.star {
+  color: #e76354;
+}
+
+.inner .blue-box {
+  min-width: 1010px;
+  height: 110px;
+  border: 1px solid #e8ecef;
+  background: #f7f8fa;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.inner .blue-box ul {
+  width: 900px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .blue-box ul:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+.inner .blue-box ul li {
+  width: 50%;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+
+.inner .base {
+  width: 1000px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .base span:first-child + span {
+  margin-left: 145px;
+}

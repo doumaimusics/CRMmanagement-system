@@ -1,0 +1,134 @@
+.clear{
+    clear: both;
+}
+.editor_box > nav{
+    border-bottom: 1px solid #d1d2d3;
+    height: 40px;
+}
+.editor_box > nav > div{
+    float: left;
+    display: inline-block;
+    color: #1e6cc7;
+    font-size: 12px;
+    width:105px;
+    height: 39px;
+    line-height: 38px;
+    border: 1px solid #d1d2d3;
+    border-bottom: none;
+    border-right: 0;
+    text-align: center;
+    position: relative;
+}
+.editor_box > nav > .arrow{
+    background: #f7f8fa url("../images/bidding_icn01.png") no-repeat right center;
+    background-position-x: 90%;
+}
+.editor_box > nav > .arrow > .ar > .xiala{
+    display: block;
+}
+.editor_box > nav > div:nth-child(6n){
+    border-right: 1px solid #d1d2d3;
+}
+.editor_box > nav > div.ar{
+    border-top: 2px solid #e76354;
+    border-bottom: none;
+    line-height: 36px;
+    color: #4f5f6f;
+    background: url("../images/bidding_icn02.png") no-repeat right center;
+    background-position-x: 90%;
+}
+.editor_box > nav > div.ar:first-child{
+    background:none;
+}
+
+/* .xiala > .baidu{*/
+/*width: 128px;*/
+/*border: 1px solid #d1d2d3;*/
+/*margin: 48px 0 0 94px;*/
+/*}*/
+/*.xiala > ul > li{*/
+/*width: 100%;*/
+/*height: 30px;*/
+/*line-height: 30px;*/
+/*}*/
+/*..xiala > ul > li > a{*/
+/*color: #5c646b;*/
+/*display: block;*/
+/*font-size: 12px;*/
+/*text-align: center;*/
+/*}*/
+/*.xiala > ul > li > a:hover{*/
+/*color: #1e6cc7;*/
+/*background-color: #eaf4fd;*/
+/*}*/
+nav .arrow .xiala {
+    width: 105px;
+    border: 1px solid #d1d2d3;
+    position: absolute;
+    top:38px;left: 0;
+    margin: -1px 0 0 -1px;
+    display: none;
+    z-index: 99999999;
+    background-color: #fff;
+}
+nav .arrow.ar .xiala{
+    display: block;
+}
+.xiala01{
+    width: 85px;
+    margin: -10px 0 0 -1px;
+}
+.arrow > ul > li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.arrow > ul > li > a{
+    color: #5c646b;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.arrow > ul > li > a:hover {
+    color: #1e6cc7;
+    background-color: #eaf4fd;
+}
+.erji_xiala{
+    margin: 20px 0;
+    height: 28px;
+}
+.erji_xiala > ul > li{
+    float: left;
+    display: inline-block;
+    color: #5c646b;
+    font-size: 12px;
+    width:85px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #d1d2d3;
+    border-right: 0;
+    text-align: center;
+    background: url("../images/bidding_icn03.png") no-repeat right center;
+    background-position-x: 90%;
+    position: relative;
+}
+.erji_xiala > ul > li:hover{
+    background: #f2f2f2 url("../images/bidding_icn04.png") no-repeat right center;
+    background-position-x: 90%;
+}
+.erji_xiala > ul > li.back_none{
+    background: none;
+}
+.erji_xiala > ul > li.erji{
+    background-color: #e76354;
+    color: #fff;
+    background-position-x: 90%;
+}
+.erji_xiala > ul > li.back_none:hover{
+    background: #e76354;
+    color: #fff;
+}
+.erji_xiala > ul > li:last-child{
+    border-right: 1px solid #d1d2d3;
+}
+

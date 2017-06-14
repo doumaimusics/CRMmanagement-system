@@ -1,0 +1,125 @@
+.inner .title {
+  min-width: 1132px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .edit {
+  padding-top: 15px;
+  padding-right: 15px;
+  width: 1100px;
+}
+
+.inner .edit:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.inner .edit li {
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .edit li span:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 32px;
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.inner .edit li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .edit li input[type=text] {
+  width: 237px;
+  height: 28px;
+  box-sizing: border-box;
+  color: #6c747c;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.inner .edit li select {
+  width: 237px;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+  border-color: #ccc;
+}
+
+.inner .edit li.remark {
+  height: 80px;
+}
+
+.inner .edit li.remark span {
+  float: left;
+}
+
+.inner .edit li.remark textarea {
+  width: 237px;
+  height: 100%;
+  resize: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .save {
+  width: 100%;
+  height: 32px;
+  margin-top: 20px;
+}
+
+.inner .save input[type="submit"] {
+  width: 80px;
+  height: 100%;
+  margin-left: 135px;
+  background: #e76354;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.inner .save input[type="submit"]:hover {
+  background: #ed5746;
+}
+
+.inner .save input[type="reset"] {
+  width: 80px;
+  height: 100%;
+  margin-left: 15px;
+  background: #5d7fa2;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.inner .save input[type="reset"]:hover {
+  background: #4478ae;
+}

@@ -1,0 +1,143 @@
+.inner .title {
+  min-width: 1482px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1450px;
+}
+
+.inner .matter .top {
+  /*width: 1450px;*/
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .matter .top span {
+  float: left;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter .top select {
+  float: left;
+  width: 120px;
+  height: 32px;
+  line-height: 28px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #6c747c;
+}
+.inner .matter .top input[type="text"] {
+  float: left;
+  width: 120px;
+  height: 32px;
+  color:  #6c747c;
+  margin-left: 5px;
+  font-size: 12px;
+  line-height: 32px;
+  box-sizing: border-box;
+}
+
+.inner .matter .top input[type="button"] {
+  float: left;
+  border: none;
+  width: 65px;
+  height: 32px;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 12px;
+  background: #e76354;
+  outline: none;
+  cursor: pointer;
+}
+
+.inner .matter .top input[type="button"]:hover {
+  background: #ed5746;
+}
+
+.inner .matter .middle {
+  margin-top: 15px;
+}
+
+.inner .matter .middle tr {
+  border: 1px solid #ccc;
+}
+
+.inner .matter .middle tr th {
+  /*padding-left: 25px;*/
+  font-weight: bold;
+  font-size: 12px;
+  color: #4f5f6f;
+  text-align: left;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.inner .matter .middle tr td {
+  /*padding-left: 25px;*/
+  font-size: 12px;
+  color: #6c747c;
+  height: 40px;
+}
+.inner .matter .middle tr th:first-child,.inner .matter .middle tr td:first-child{
+  padding-left: 25px;
+}
+.inner .matter .middle tr td select {
+  width: 120px;
+  height: 32px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #6c747c;
+}
+.inner .matter .middle tr td a{
+  color: #1e6cc7;
+}
+.inner .matter .middle tr td a:hover{
+  color: #ed5746;
+}
+
+.inner .matter .middle tr .cover {
+  position: relative;
+}
+
+.inner .matter .middle tr .cover .fugai {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("../images/no.png");
+  display: none;
+}
+
+.inner .matter .middle tr .cover.finish .fugai {
+  display: block;
+}
+
+.inner .matter .middle thead tr {
+  background: #f7f8fa;
+}
+
+.inner .matter .middle tbody tr:hover {
+  background: #edf5fd;
+}
+select:disabled{
+  background: #f4f5f5;
+}

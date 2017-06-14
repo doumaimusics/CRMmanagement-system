@@ -1,0 +1,39 @@
+                                                    数据统计
+
+1、data-agency.html                                  代理状态
+2、home.html                                          数据统计首页
+3、kind.html                                             商标成交统计
+4、kind-qt.html                                        洽谈成交统计    
+5、kind-xs.html                                        销售询价统计
+6、kind-cyr.html                                      持有人成交统计 
+7、kind-qtht.html                                    洽谈组合同统计  
+8、performance.html                                  业绩成果分析
+9、ranking.html                                        销售业绩排名统计
+
+
+
+10、Bidding_consumer.html              消费简报
+11、Bidding_conversion.html            渠道转化汇总
+12、Bidding_dialogue.html              商务通对话量
+13、Bidding_edit.html                  编辑资料
+14、optimization_jindu.html            运营目标分解进度统计
+15、optimization_seo.html              运营数据统计表>SEO
+16、optimization_tongji.html           运营数据统计表
+17、Consultation_fqtj.html             咨询汇总统计
+18、Consultation_hz.html               废弃客户统计
+19、join-up.html                                      （渠道）运营-接入量统计
+
+
+20、performance-details.html            业绩成果分析-订单详情
+21、performance-filiale.html            业绩成果分析-分公司
+22、performance-firm.html               业绩成果分析-分公司（客户数）
+23、performance-single.html             业绩成果分析-销售代表（客户数）
+24、data-business.html                  销售额-业务类型统计
+25、data-agency-operator.html           代理执行人单数统计
+26、data-agency-quantity.html           代理单数统计
+27、data-chargeback.html                退单统计
+28、data-enquiry.html                   销售额-销售询价统计
+29、data-follow.html                    销售额-销售跟进状态明细表
+30、extension.html                      商标续展管理
+31、resource.html                       资源客户管理
+32、resource-alter.html                 资源客户管理-修改咨询信息

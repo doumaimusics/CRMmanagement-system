@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:none;
+	list-style: none;
+	outline:none;
+	background:none;
+	resize:none;
+	text-decoration:none;
+}
+.clear{
+	clear: both;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.consultation_box{
+	min-width:1383px;
+	height: 100%;
+	}
+/*路径*/
+.consultation_route{
+	width:100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #f0f3f6;
+	}
+	.consultation_route p{
+		color: #4f5f6f;
+		font-size: 12px;
+		margin-left: 16px;
+	}
+	.consultation_route p a{
+		color: #4f5f6f;
+		font-size: 12px;
+	}
+	/*编辑咨询信息*/
+	.consultation_edit ul li{
+		width:35%;
+		height: 32px;
+		line-height: 32px;
+		float: left;
+		color: #6c747c;
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	.consultation_edit ul li .title{
+		width: 120px;
+		text-align: right;
+		display: inline-block;
+	}
+	.consultation_edit ul li .sign{
+		color: #e76354;
+	}
+	.consultation_edit ul li input{
+		color: #6c747c;
+		font-size: 12px;
+		border:1px solid #c5cad0;
+		width: 228px;
+		height: 20px;
+		padding: 5px;
+	}
+	.consultation_edit ul li select{
+		color: #6c747c;
+		font-size: 12px;
+		border:1px solid #c5cad0;
+		width: 240px;
+		height: 32px;
+		padding: 5px;
+	}
+	.consultation_edit ul .preservation a{
+		margin-left: 124px;
+		width: 100px;
+		height: 34px;
+		line-height: 34px;
+		color: #fff;
+		background-color: #e76354;
+		text-align:center;
+		font-size: 14px;
+		display: block;
+	}
+	.consultation_edit ul .preservation a:hover{
+		background-color: #ed5746;
+	}
+	/*2017-05-23 zrk*/
+    .consultation_edit ul li span.flow-path{
+	     margin-left: 10px;
+	     margin-right: 5px;
+	     padding-top: 4px;
+	     background: url("../images/icon-sex.png") no-repeat center center;
+     }
+    .consultation_edit ul li span.flow-path.on{
+	      background: url("../images/icon-sexxz.png") no-repeat center center;
+	 }
+    .consultation_edit ul li span.flow-path input[type=radio]{
+		   width: 13px;
+		   height: 13px;
+	       opacity: 0;
+	       /*IE8兼容问题*/
+	       filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+      }
+      /*2017-05-23 zrk*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

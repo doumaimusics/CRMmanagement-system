@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.inner .title {
+    min-width: 1252px;
+    height: 60px;
+    background: #f0f3f6;
+    font-size: 12px;
+    color: #4f5f6f;
+    padding-left: 15px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.inner .title a {
+    color: #4f5f6f;
+}
+
+.inner .matter {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.inner .matter .top {
+    min-width: 1220px;
+    height: 32px;
+    color: #6c747c;
+    font-size: 12px;
+}
+
+.inner .matter .top span {
+    float: left;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+}
+
+.inner .matter .top select {
+    float: left;
+    width: 132px;
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 28px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #6c747c;
+}
+
+.inner .matter .top input[type="button"] {
+    float: left;
+    border: none;
+    width: 65px;
+    height: 32px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 12px;
+    background: #e76354;
+    outline: none;
+    cursor: pointer;
+}
+
+.inner .matter .top input[type="button"]:hover {
+    background: #ed5746;
+}
+
+.inner .matter .top input[type="button"].color {
+    background: #e64b3a;
+}
+
+.client-title {
+    margin-top: 30px;
+    min-width: 1200px;
+    border-bottom: 1px solid #e8ecef;
+}
+
+.client-title:after {
+    display: block;
+    height: 0;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+
+.client-title li {
+    float: left;
+    margin-top: 5px;
+    min-width: 105px;
+    padding: 0 5px;
+    margin-left: 10px;
+    height: 40px;
+    border: 1px solid #e8ecef;
+    border-bottom-color: #f7f8fa;
+    box-sizing: border-box;
+    background: #f7f8fa;
+}
+.client-title li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #1e6cc7;
+    font-size: 12px;
+    text-align: center;
+    line-height: 39px;
+
+}
+.client-title li:first-child{
+    margin-left: 0;
+}
+.inner .matter table {
+    margin-top: 20px;
+}
+
+.inner .matter .tab tr {
+    border: 1px solid #ccc;
+}
+
+.inner .matter .tab tr th {
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #4f5f6f;
+    text-align: left;
+    box-sizing: border-box;
+    height: 40px;
+    font-weight: bold;
+}
+
+.inner .matter .tab tr td {
+    padding-left: 15px;
+    font-size: 12px;
+    color: #6c747c;
+    height: 45px;
+    box-sizing: border-box;
+}
+.inner .matter .tab thead tr {
+    background: #f7f8fa;
+}
+
+.inner .matter .tab tbody tr:hover {
+    background: #edf5fd;
+}
+.client-title li.active {
+    border-top: 2px solid #e76354;
+    border-bottom: none;
+    background: #fff;
+    position: relative;
+}
+.client-title li.active a{
+    color: #e76354;
+    font-weight: bold;
+}
+
+.client-title li.active:after {
+    content: "";
+    clear: both;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 38px;
+}
+.client-content {
+    min-width: 1220px;
+    /*border:1px solid #e8ecef;*/
+    /*background: #f7f8fa;*/
+    box-sizing: border-box;
+}
+
+.client-content2,.client-content3,.client-content4,.client-content5 {
+    display: none;
+}

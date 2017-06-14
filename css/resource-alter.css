@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.inner .title {
+  min-width: 1192px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+.inner .title a.return{
+  float: right;
+  margin-top: 15px;
+  margin-right: 30px;
+  display: block;
+  width: 54px;
+  height: 32px;
+  color: #5c646b;
+  text-align: center;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: #f6f8fa;
+}
+.inner .title a.return:hover{
+  background: #fff;
+}
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1160px;
+}
+
+.inner .matter ul {
+  width: 1100px;
+}
+
+.inner .matter ul:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.inner .matter ul li {
+  float: left;
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+  margin-top: 15px;
+}
+
+.inner .matter ul li span:first-child {
+  display: inline-block;
+  width: 105px;
+  height: 32px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.inner .matter ul li span.am-search {
+  display: inline-block;
+  width: 146px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter ul li span.am-search a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #f7f8fa;
+  border: 1px solid #e8ecef;
+  box-sizing: border-box;
+  color: #6c747c;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.inner .matter ul li span.am-search a:hover {
+  background: #fff;
+}
+
+.inner .matter ul li span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .matter ul li input[type=text] {
+  border: 1px solid #ccc;
+  width: 235px;
+  height: 32px;
+  line-height: 32px;
+  color: #6c747c;
+  box-sizing: border-box;
+}
+.inner .matter ul li select{
+  border: 1px solid #ccc;
+  width: 235px;
+  height: 32px;
+  line-height: 32px;
+  color: #6c747c;
+  box-sizing: border-box;
+}
+.inner .matter ul li.entire {
+  width: 100%;
+}
+
+.inner .matter ul li.remark {
+  width: 100%;
+  height: 138px;
+}
+
+.inner .matter ul li.remark span {
+  float: left;
+}
+
+.inner .matter ul li.remark textarea {
+  border: 1px solid #ccc;
+  width: 785px;
+  height: 100%;
+  resize: none;
+  color: #6c747c;
+  box-sizing: border-box;
+}
+
+.inner .matter ul li.save a {
+  display: block;
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 105px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.inner .matter ul li.save a:hover {
+  background: #ed5746;
+}
+
+.inner .matter ul li.save input[type="submit"] {
+  width: 180px;
+  height: 100%;
+  background: #e76354;
+  margin-left: 105px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.inner .matter ul li.save input[type="submit"]:hover {
+  background: #ed5746;
+}
+
+.inner .matter ul li .upload {
+  position: relative;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.inner .matter ul li .upload .upload-input-file {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+
+.inner .matter ul li .upload .upload-btn {
+  outline: none;
+  border: 1px solid #ccc;
+  color: #6c747c;
+  background: #f7f8fa;
+  cursor: pointer;
+  margin-left: 3px;
+  width: 45px;
+  height: 32px;
+  box-sizing: border-box;
+  /*border-radius: 3px;*/
+}
+.inner .matter ul li .upload .upload-btn:hover{
+  background: #fff;
+}
+.inner .matter ul li .upload .upload-url {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+  width: 235px;
+  height: 32px;
+  -webkit-line-height: 1;
+  line-height: 30px\9;
+  -ms-line-height: 30px;
+  text-indent: 3px;
+  color: #6c747c;
+}
+
+.inner .matter ul li input[type="button"].but {
+  float: left;
+  border: none;
+  width: 46px;
+  height: 32px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 12px;
+  background: #e76354;
+  outline: none;
+  cursor: pointer;
+}
+
+.inner .matter ul li input[type="button"].but:hover {
+  background: #ed5746;
+}
+
+.inner .matter ul li input[type="button"].but.color {
+  background: #e64b3a;
+}
+

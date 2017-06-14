@@ -1,0 +1,54 @@
+.editor_box{
+    margin: 0 16px;
+}
+.editor_box .search_bar{
+    height: 62px;
+    line-height: 62px;
+    border: none;
+    font-size: 12px;
+    color: #6c747c;
+}
+.editor_box .search_bar span{
+    color: #6c747c;
+    font-size: 12px;
+    display: inline-block;
+}
+.editor_box .search_bar input{
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #c5cad0;
+    padding: 0 5px;
+    color: #6c747c;
+}
+.editor_box .search_bar select{
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #c5cad0;
+    padding: 0 5px;
+    color: #6c747c;
+}
+.editor_box .search_bar .submit{
+    width: 64px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #e76354;
+    display: inline-block;
+    margin-left: 5px;
+    border: none;
+}
+
+.consultation_route a.edit {
+    color: #1e6cc7;
+    position: absolute;
+    right: 30px;
+}
+.inner .consultation_route i {
+    right: 5px;
+    position: relative;
+    vertical-align: -webkit-baseline-middle;
+}

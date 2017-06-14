@@ -1,0 +1,82 @@
+.editor_box table{
+    border: 1px solid #e8ecef;
+    border-spacing: 0;
+    font-size: 12px;
+    color: #435262;
+    border-bottom: none;
+    width: 100%;
+}
+.editor_box table tr.jindu_list_trtle1{
+    background-color: #f7f8fa;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.editor_box table tr.jindu_list_trtle2{
+    background-color: #f7f8fa;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+.editor_box table tr th{
+    border-right: 1px solid #e8ecef;
+    border-bottom: 1px solid #e8ecef;
+}
+.editor_box table tr th i{
+    width: 148px;
+    height: 1px;
+    background-color: #e8ecef;
+    display: -webkit-box;
+    position: absolute;
+    top: 34px;
+    left: -10px;
+    transform:rotate(28deg);
+    -ms-transform:rotate(28deg); /* IE 9 */
+    -moz-transform:rotate(28deg); /* Firefox */
+    -webkit-transform:rotate(28deg); /* Safari 和 Chrome */
+    -o-transform:rotate(28deg); /* Opera */
+}
+.editor_box table tr td{
+    border-right: 1px solid #e8ecef;
+    border-bottom: 1px solid #e8ecef;
+    text-align: center;
+    height: 39px;
+}
+.editor_box table tr.jindu_list_trtle2 td{
+    height: 29px;
+    line-height: 29px;
+}
+.editor_box table tr.pink{
+    background-color: #fff6ed;
+    color: #f37f39;
+}
+.editor_box table tr.odd:hover{
+    background-color: #edf5fd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

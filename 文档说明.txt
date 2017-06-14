@@ -1,0 +1,50 @@
+                CRM管理文档说明
+系统管理：system文件夹
+
+     1、 添加客户信息                add.html
+     2、 群组权限管理                jurisdiction.html
+     3、 用户列表管理                newly.html
+     4、 修改密码                       password.html
+     5、 登录页面                       register.html
+     6、 用户添加                       users_add.html
+     7、 用户管理列表                users_list.html
+
+
+
+销售模块：sell文件夹
+     1、业务分配管理                       allocation.html
+     2、询价记录表                         enquiry.html
+     3、客户信息管理                       information.html
+     4、客户成交记录表                     log sheet.html
+     5、客户信息管理-添加客户              sell-add.html
+     6、客户成交记录表-客户成交登记表      sell-register.html
+     7、客户成交记录表-客户成交登记        turnover.html
+     8、询价记录表修改页                   enquiry-charting.html
+
+
+咨询模块：Consultation文件名
+
+1、consultation_edit.html （咨询客户管理列表-竞价）
+2、consultation_list.html（咨询客户管理列表）
+3、consultation_new.html（新增客户）
+4、distribution_list.html（分配记录）
+5、follow-up.html（跟进）
+
+财务模块：finance文件夹
+     1、订单详细表                       finance.html
+     2、客户预付款                       client-imprest.html
+     3、客户尾款                         client-final.html
+     4、客户全款                         client-all.html                   
+     5、持有人定金                       hold-handsel.html
+     6、持有人尾款                       hold-end.html
+     7、客户预付款详情                   client-impbox.html
+     8、客户尾款详情                     client-finbox.html
+     9、客户全款详情                     client-allbox.html
+     10、持有人定金详情                  hold-hanbox.html
+     11、持有人尾款详情                  hold-endbox.html
+
+代理模块：agency文件夹
+     1、代理订单列表                     agency.html
+     2、代理订单列表-编辑                agency_edit.html
+     3、代理订单列表-文件                agency_file.html
+

@@ -1,0 +1,247 @@
+@charset "UTF-8";
+.inner .title {
+  min-width: 1562px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1530px;
+}
+
+.inner .matter .top {
+  width: 100%;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .matter .top span {
+  float: left;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter .top input[type="text"] {
+  width: 110px;
+  height: 32px;
+  border: 1px solid #ccc;
+  float: left;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .matter .top span.date {
+  margin-left: 10px;
+  padding-top: 4px;
+  background: url("../images/icon-sex.png") no-repeat center center;
+}
+
+.inner .matter .top span.date.on {
+  background: url("../images/icon-sexxz.png") no-repeat center center;
+}
+
+.inner .matter .top span.date input[type=radio] {
+  opacity: 0;
+  /*兼容IE8*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.inner .matter .top select {
+  float: left;
+  width: 100px;
+  height: 32px;
+  line-height: 28px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .matter .top input[type="button"] {
+  float: left;
+  border: none;
+  width: 65px;
+  height: 32px;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 12px;
+  background: #e76354;
+  outline: none;
+  cursor: pointer;
+}
+
+.inner .matter .top input[type="button"]:hover {
+  background: #ed5746;
+}
+
+.inner .matter .top input[type="button"].color {
+  background: #e64b3a;
+}
+
+.inner .matter table {
+  margin-top: 20px;
+}
+
+.inner .matter tr {
+  border: 1px solid #ccc;
+}
+
+.inner .matter tr th {
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f5f6f;
+  text-align: left;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.inner .matter tr td {
+  padding-left: 15px;
+  font-size: 12px;
+  color: #6c747c;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.inner .matter tr td.operate {
+  padding-right: 15px;
+}
+
+.inner .matter tr td.operate a {
+  color: #456aa9;
+  margin-left: 5px;
+}
+
+.inner .matter tr td.operate a:hover {
+  color: #ed5746;
+}
+
+.inner .matter thead tr {
+  background: #f7f8fa;
+}
+
+.inner .matter tbody tr:hover {
+  background: #f7f8fa;
+}
+
+/*删除提示*/
+.hint {
+  z-index: 888888;
+  display: none;
+  width: 320px;
+  height: 180px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 14px;
+}
+
+.hint .t-top {
+  width: 100%;
+  height: 40px;
+  background: #f7f8fa url("../images/icon-ts.png") no-repeat 15px center;
+  border-bottom: 1px solid #e8ecef;
+  padding-left: 24px;
+  box-sizing: border-box;
+  line-height: 40px;
+  color: #4f5f6f;
+  font-weight: bold;
+  position: relative;
+}
+
+.hint .t-top span {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../images/icon-close.png") no-repeat center center;
+  cursor: pointer;
+}
+
+.hint .t-top span:hover {
+  background: url("../images/icon-closed.png") no-repeat center center;
+}
+
+.hint .t-center {
+  width: 100%;
+  color: #4f5f6f;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hint .t-center span {
+  color: #456aa9;
+}
+
+.hint .t-bottom {
+  height: 32px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.hint .t-bottom li {
+  width: 80px;
+  height: 32px;
+  float: left;
+}
+
+.hint .t-bottom .ensure {
+  margin-left: 73px;
+}
+
+.hint .t-bottom .ensure a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 32px;
+  background: #e76354;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hint .t-bottom .ensure a:hover {
+  background: #ed5746;
+}
+
+.hint .t-bottom .cancel {
+  margin-left: 15px;
+}
+
+.hint .t-bottom .cancel a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 32px;
+  background: #5d7fa2;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hint .t-bottom .cancel a:hover {
+  background: #4478ae;
+}

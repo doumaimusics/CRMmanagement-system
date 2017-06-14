@@ -1,0 +1,166 @@
+.inner .title {
+  min-width: 1082px;
+  height: 60px;
+  background: #f0f3f6;
+  font-size: 12px;
+  color: #4f5f6f;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.inner .title a {
+  color: #4f5f6f;
+}
+
+.inner .matter {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  min-width: 1050px;
+}
+
+.inner .matter .top {
+  width: 100%;
+  height: 32px;
+  color: #6c747c;
+  font-size: 12px;
+}
+
+.inner .matter .top span {
+  float: left;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.inner .matter .top span.star {
+  color: #e76354;
+  margin-left: 5px;
+}
+
+.inner .matter .top input[type="text"].doc-title {
+  width: 110px;
+  height: 32px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  line-height: 32px;
+  font-size: 12px;
+  color: #6c747c;
+}
+
+.inner .matter .top .upload {
+  position: relative;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.inner .matter .top .upload .upload-input-file {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+
+.inner .matter .top .upload .upload-btn {
+  outline: none;
+  border: 1px solid #ccc;
+  color: #6c747c;
+  background: #f7f8fa;
+  cursor: pointer;
+  margin-left: 3px;
+  width: 45px;
+  height: 32px;
+}
+
+.inner .matter .top .upload .upload-url {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+  width: 230px;
+  height: 32px;
+  -webkit-line-height: 1;
+  line-height: 30px\9;
+  -ms-line-height: 30px;
+  text-indent: 3px;
+  color: #6c747c;
+}
+
+.inner .matter .top input[type="button"].but {
+  float: left;
+  border: none;
+  width: 46px;
+  height: 32px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 12px;
+  background: #e76354;
+  outline: none;
+  cursor: pointer;
+}
+
+.inner .matter .top input[type="button"].but:hover {
+  background: #ed5746;
+}
+
+.inner .matter .top input[type="button"].but.color {
+  background: #e64b3a;
+}
+
+.inner .matter table {
+  margin-top: 20px;
+}
+
+.inner .matter tr {
+  border: 1px solid #ccc;
+}
+
+.inner .matter tr th {
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f5f6f;
+  text-align: left;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.inner .matter tr td {
+  padding-left: 15px;
+  font-size: 12px;
+  color: #6c747c;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.inner .matter tr td.operate {
+  padding-right: 15px;
+}
+
+.inner .matter tr td.operate a {
+  color: #456aa9;
+  margin-left: 5px;
+}
+
+.inner .matter tr td.operate a:hover {
+  color: #ed5746;
+}
+
+.inner .matter thead tr {
+  background: #f7f8fa;
+}
+
+.inner .matter tbody tr:hover {
+  background: #f7f8fa;
+}

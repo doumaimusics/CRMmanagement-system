@@ -1,0 +1,8 @@
+
+添加客户信息               add.html
+群组权限管理               jurisdiction.html
+用户列表管理               newly.html
+修改密码                      password.html
+登录页面                     register.html
+用户添加                     users_add.html
+用户管理列表              users_list.html

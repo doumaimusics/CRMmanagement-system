@@ -1,0 +1,129 @@
+/*公用样式*/
+*{
+	margin: 0;
+	padding: 0;
+	border:none;
+	list-style: none;
+	outline:none;
+	background:none;
+	resize:none;
+	text-decoration:none;
+}
+.clear{
+	clear: both;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.feedback_box{
+	min-width: 1000px;
+}
+.feedback_detailsbox{
+	width: 100%;
+	height:auto;
+	min-width: 1744px;
+	}
+	.feedback_bar{
+		width: 100%;
+		height: auto;
+		}
+		.feedback_bar ul{
+			margin: 0 16px;
+		}
+		.feedback_bar ul li{
+			height: auto;
+			color: #6c747c;
+			font-size: 12px;
+			margin-bottom: 6px;
+		}
+		.feedback_bar ul li.fdk01{
+			margin-top: 20px;
+			height: 32px;
+			line-height:32px;
+		}
+		.feedback_bar ul li.fdk02{
+			height: 32px;
+			line-height:32px;
+		}
+		.feedback_bar ul li div{
+			width: 240px;
+			height: 32px;
+			line-height:32px;
+		}
+		.feedback_bar ul .details_box{
+			height: 32px;
+			line-height: 32px;
+			margin-bottom: 10px;
+		}
+		.feedback_bar ul .details_box .pay_list_c2{
+			width: 20px;
+			height: 20px;
+			background: url("../images/che1.png") no-repeat;
+			background-position: left bottom;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: sub;
+		}
+		.feedback_bar ul .details_box .details_til{
+			width: 66px;
+			float: left;
+		}
+		.feedback_bar ul .details_box label{
+			font-size: 12px;
+			color: #737373;
+			cursor: pointer;
+		}
+		.feedback_bar ul .details_box .pay_list_c2 input{
+		    opacity: 0;
+		    cursor: pointer;
+		    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		    filter: alpha(opacity=0);
+		    width: 20px;
+		    height: 20px;
+		}
+		.feedback_bar ul .details_box .pay_list_c2.on{
+			background: url("../images/che2.png") no-repeat;
+			vertical-align: sub;
+		    width: 20px;
+		    height: 20px;
+		    display: inline-block;
+		    background-position: left bottom;
+		}
+		.feedback_bar ul li .details_tils{
+			width: 66px;
+			float: left;
+			height: 90px;
+		}
+		.feedback_bar ul li textarea{
+			width: 440px;
+			height: 78px;
+			padding: 5px;
+			border:1px solid #c5cad0;
+			margin-bottom: 10px;
+		}
+		.feedback_bar ul .Submit a{
+			display: block;
+			width: 240px;
+			height: 34px;
+			line-height: 34px;
+			background-color: #e76354;
+			color: #fff;
+			margin-left: 66px;
+			text-align: center;
+			font-size: 14px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
